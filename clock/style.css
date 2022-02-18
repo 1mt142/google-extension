@@ -1,0 +1,20 @@
+body{
+background-color: #36454F;
+}
+  #digital-clock{
+    padding-top: 30px;
+
+  }
+  #time-js{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1px;
+    color: #eef1ea;
+    margin: auto;
+    padding: 20px;
+
+  }
+  #dd-mm-MM-yyyy{
+      color: #eef1ea;
+      padding-left:31px;
+  }

@@ -1,20 +1,20 @@
-body{
-background-color: rgb(13, 17, 23);
+body {
+  background-color: rgb(13, 17, 23);
 }
-  #digital-clock{
-    padding-top: 30px;
-
-  }
-  #time-js{
-    font-size: 60px;
-    font-weight: bold;
-    line-height: 1px;
-    color: #eef1ea;
-    margin: auto;
-    padding: 20px;
-
-  }
-  #dd-mm-MM-yyyy{
-      color: #eef1ea;
-      padding-left:31px;
-  }
+#digital-clock {
+  padding-top: 30px;
+}
+#time-js,
+#clock-data {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1px;
+  color: #eef1ea;
+  margin: auto;
+  padding: 8px;
+}
+#dd-mm-MM-yyyy,
+#clock-data {
+  color: #eef1ea;
+  padding-left: 31px;
+}

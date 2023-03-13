@@ -61,3 +61,19 @@ function addZero(i) {
 }
 
 setInterval(digitalClock, 1000);
+
+// Get the button and the element by their ids
+const toggleButton = document.getElementById("toggleButton");
+const myDiv = document.getElementById("myDiv");
+
+// Add event listener to the button
+toggleButton.addEventListener("click", function () {
+  // Toggle the visibility of the element
+  if (myDiv.style.display === "none") {
+    myDiv.style.display = "block";
+    toggleButton.textContent = "Hide Calender";
+  } else {
+    myDiv.style.display = "none";
+    toggleButton.textContent = "Show Calender";
+  }
+});

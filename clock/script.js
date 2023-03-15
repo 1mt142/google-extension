@@ -81,6 +81,13 @@ toggleButton.addEventListener("click", () => {
   // Get the current visibility state from localStorage (default to "visible")
   const isVisible = localStorage.getItem("isVisible") !== "false";
 
+  console.log("isVisible ::-", isVisible);
+  if (isVisible) {
+    toggleButton.textContent = "Show Prayer Times";
+  } else {
+    toggleButton.textContent = "Hide Prayer Times";
+  }
+
   // Toggle the visibility state and save it to localStorage
   localStorage.setItem("isVisible", !isVisible);
 
